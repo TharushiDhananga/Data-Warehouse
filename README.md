@@ -19,3 +19,27 @@ Order of Data Extraction
 
 ![image](https://github.com/user-attachments/assets/61e3146f-4054-4a4b-ad54-57ea5f158f45)
 
+
+Step 2: Transform data in the staging area 
+Once data is extracted, it undergoes cleaning, transformation, and standardization in the staging 
+area before being loaded into the data warehouse. 
+
+01) Key Mapping & Relationship Handling: 
+• Use Lookup Transformation to find matching records in dimension tables. 
+• Generate Surrogate Keys for dimension tables where necessary.
+
+02) Slowly Changing Dimensions (SCD) Management: 
+• For Customer and Store data, SCD Type 2 is used to maintain historical changes by 
+adding effective date columns. 
+• For other dimensions, SCD Type 1 is used where only the latest data is retained.
+
+03) Data cleansing: 
+• There are some Null values in weight Unit Measure, Weight, close date and 
+status columns in Product table and Store table. So, data cleansing is used for 
+replace those null values.
+Data cleansing for Product data and store data
+![Uploading image.png…]()     
+
+
+
+
