@@ -38,7 +38,9 @@ adding effective date columns.
 status columns in Product table and Store table. So, data cleansing is used for 
 replace those null values.
 Data cleansing for Product data and store data
-![Uploading image.png…]()     
+
+    ![image](https://github.com/user-attachments/assets/13aec976-e37e-4de1-938d-107c4508939b)
+
 
 
 
