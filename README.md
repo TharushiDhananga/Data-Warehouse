@@ -39,7 +39,27 @@ status columns in Product table and Store table. So, data cleansing is used for
 replace those null values.
 Data cleansing for Product data and store data
 
-    ![image](https://github.com/user-attachments/assets/13aec976-e37e-4de1-938d-107c4508939b)
+    ![image](https://github.com/user-attachments/assets/13aec976-e37e-4de1-938d-107c4508939b)      ![image](https://github.com/user-attachments/assets/81343789-497f-4a65-ab58-251425511f78)
+Customer Slowly Changing Dimension (SCD Type 2)
+![image](https://github.com/user-attachments/assets/bccd2cc2-a73d-4092-bb09-e0a43b638d03)
+![image](https://github.com/user-attachments/assets/d1ddd82c-788f-4ad3-b181-9c1e47135b1d)
+
+Step 3: Load Data into the Data Warehouse
+After transformation, data is loaded into the data warehouse following a structured approach to maintain integrity and relationships.
+
+Order of Data Loading
+1.	Load Dimension Tables First
+•	Load Product Dimension.
+•	Load Store Dimension.
+•	Load GeoLocation Dimension.
+•	Load CurrencyExchange Dimension.
+•	Load Customer Dimension.
+
+![image](https://github.com/user-attachments/assets/c3590980-5808-49d9-b0ab-494328fd1e45)
+
+
+
+
 
 
 
